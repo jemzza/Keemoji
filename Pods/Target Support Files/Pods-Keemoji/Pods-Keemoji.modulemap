@@ -1,0 +1,6 @@
+framework module Pods_Keemoji {
+  umbrella header "Pods-Keemoji-umbrella.h"
+
+  export *
+  module * { export * }
+}

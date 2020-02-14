@@ -3,27 +3,50 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26764A438A14829A1C82AFC2 /* Pods_Keemoji.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 005F1BDFE7BCAD5F8814D54E /* Pods_Keemoji.framework */; };
+		A206FE2523F4426800B2A975 /* UserProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A206FE2423F4426800B2A975 /* UserProfileVC.swift */; };
+		A249D25523F542C70084B917 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A249D25423F542C70084B917 /* GoogleService-Info.plist */; };
+		A274941423F694E700C415AA /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A274941323F694E700C415AA /* UserProfile.swift */; };
+		A274941623F6AB8800C415AA /* CurrentJser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A274941523F6AB8800C415AA /* CurrentJser.swift */; };
+		A274941823F6CCA300C415AA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A274941723F6CCA300C415AA /* Order.swift */; };
+		A27AB17923F3FD8600AB0952 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27AB17823F3FD8600AB0952 /* Menu.swift */; };
+		A27AB17B23F4027D00AB0952 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27AB17A23F4027D00AB0952 /* Dish.swift */; };
+		A27AB18123F418BB00AB0952 /* DetailVС.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27AB18023F418BB00AB0952 /* DetailVС.swift */; };
+		A27FC3FF23F59B5A0077694B /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27FC3FE23F59B5A0077694B /* LoginVC.swift */; };
 		A2AD72D023F2CE5E00257D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD72CF23F2CE5E00257D60 /* AppDelegate.swift */; };
 		A2AD72D223F2CE5E00257D60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD72D123F2CE5E00257D60 /* SceneDelegate.swift */; };
-		A2AD72D423F2CE5E00257D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD72D323F2CE5E00257D60 /* ViewController.swift */; };
 		A2AD72D723F2CE5E00257D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AD72D523F2CE5E00257D60 /* Main.storyboard */; };
 		A2AD72D923F2CE6300257D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AD72D823F2CE6300257D60 /* Assets.xcassets */; };
 		A2AD72DC23F2CE6300257D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AD72DA23F2CE6300257D60 /* LaunchScreen.storyboard */; };
+		A2AD72E423F2D00600257D60 /* MenuListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD72E323F2D00600257D60 /* MenuListVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		005F1BDFE7BCAD5F8814D54E /* Pods_Keemoji.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Keemoji.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		81250360F113B0DC56F11AAF /* Pods-Keemoji.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keemoji.debug.xcconfig"; path = "Target Support Files/Pods-Keemoji/Pods-Keemoji.debug.xcconfig"; sourceTree = "<group>"; };
+		A2021A7423F5C35100176CE1 /* Keemoji.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Keemoji.entitlements; sourceTree = "<group>"; };
+		A206FE2423F4426800B2A975 /* UserProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfileVC.swift; sourceTree = "<group>"; };
+		A249D25423F542C70084B917 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A274941323F694E700C415AA /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		A274941523F6AB8800C415AA /* CurrentJser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentJser.swift; sourceTree = "<group>"; };
+		A274941723F6CCA300C415AA /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A27AB17823F3FD8600AB0952 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		A27AB17A23F4027D00AB0952 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
+		A27AB18023F418BB00AB0952 /* DetailVС.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailVС.swift"; sourceTree = "<group>"; };
+		A27FC3FE23F59B5A0077694B /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A2AD72CC23F2CE5E00257D60 /* Keemoji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keemoji.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2AD72CF23F2CE5E00257D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A2AD72D123F2CE5E00257D60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A2AD72D323F2CE5E00257D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A2AD72D623F2CE5E00257D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A2AD72D823F2CE6300257D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2AD72DB23F2CE6300257D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2AD72DD23F2CE6300257D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2AD72E323F2D00600257D60 /* MenuListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListVC.swift; sourceTree = "<group>"; };
+		B354D834F5223EDB2A80D5E0 /* Pods-Keemoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keemoji.release.xcconfig"; path = "Target Support Files/Pods-Keemoji/Pods-Keemoji.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +54,111 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26764A438A14829A1C82AFC2 /* Pods_Keemoji.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A206FE2623F4440C00B2A975 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				A27AB17A23F4027D00AB0952 /* Dish.swift */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		A274941923F6E40800C415AA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				A27AB17C23F402C900AB0952 /* Model */,
+				A27AB17D23F402D500AB0952 /* View */,
+				A27AB17E23F402E700AB0952 /* Controller */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		A27AB17C23F402C900AB0952 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A27AB17823F3FD8600AB0952 /* Menu.swift */,
+				A274941723F6CCA300C415AA /* Order.swift */,
+				A206FE2623F4440C00B2A975 /* data */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A27AB17D23F402D500AB0952 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2AD72D523F2CE5E00257D60 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A27AB17E23F402E700AB0952 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A2AD72E323F2D00600257D60 /* MenuListVC.swift */,
+				A27AB18023F418BB00AB0952 /* DetailVС.swift */,
+				A206FE2423F4426800B2A975 /* UserProfileVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A27AB17F23F4030300AB0952 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				A2AD72CF23F2CE5E00257D60 /* AppDelegate.swift */,
+				A2AD72D123F2CE5E00257D60 /* SceneDelegate.swift */,
+				A2AD72D823F2CE6300257D60 /* Assets.xcassets */,
+				A2AD72DA23F2CE6300257D60 /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		A27FC3FA23F557DD0077694B /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				A27FC3FD23F558380077694B /* Model */,
+				A27FC3FC23F558330077694B /* View */,
+				A27FC3FB23F558300077694B /* Controller */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		A27FC3FB23F558300077694B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A27FC3FE23F59B5A0077694B /* LoginVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		A27FC3FC23F558330077694B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A27FC3FD23F558380077694B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A274941323F694E700C415AA /* UserProfile.swift */,
+				A274941523F6AB8800C415AA /* CurrentJser.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		A2AD72C323F2CE5E00257D60 = {
 			isa = PBXGroup;
 			children = (
 				A2AD72CE23F2CE5E00257D60 /* Keemoji */,
 				A2AD72CD23F2CE5E00257D60 /* Products */,
+				B11F252BD6D825F28877354D /* Pods */,
+				C62AF850EFB060C3FCFE259F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +173,31 @@
 		A2AD72CE23F2CE5E00257D60 /* Keemoji */ = {
 			isa = PBXGroup;
 			children = (
-				A2AD72CF23F2CE5E00257D60 /* AppDelegate.swift */,
-				A2AD72D123F2CE5E00257D60 /* SceneDelegate.swift */,
-				A2AD72D323F2CE5E00257D60 /* ViewController.swift */,
-				A2AD72D523F2CE5E00257D60 /* Main.storyboard */,
-				A2AD72D823F2CE6300257D60 /* Assets.xcassets */,
-				A2AD72DA23F2CE6300257D60 /* LaunchScreen.storyboard */,
+				A2021A7423F5C35100176CE1 /* Keemoji.entitlements */,
+				A27FC3FA23F557DD0077694B /* Authorization */,
+				A274941923F6E40800C415AA /* Application */,
+				A27AB17F23F4030300AB0952 /* Supporting files */,
 				A2AD72DD23F2CE6300257D60 /* Info.plist */,
+				A249D25423F542C70084B917 /* GoogleService-Info.plist */,
 			);
 			path = Keemoji;
+			sourceTree = "<group>";
+		};
+		B11F252BD6D825F28877354D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81250360F113B0DC56F11AAF /* Pods-Keemoji.debug.xcconfig */,
+				B354D834F5223EDB2A80D5E0 /* Pods-Keemoji.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C62AF850EFB060C3FCFE259F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				005F1BDFE7BCAD5F8814D54E /* Pods_Keemoji.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +207,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A2AD72E023F2CE6300257D60 /* Build configuration list for PBXNativeTarget "Keemoji" */;
 			buildPhases = (
+				CD58902732BBCC8B1E280594 /* [CP] Check Pods Manifest.lock */,
 				A2AD72C823F2CE5E00257D60 /* Sources */,
 				A2AD72C923F2CE5E00257D60 /* Frameworks */,
 				A2AD72CA23F2CE5E00257D60 /* Resources */,
+				2EB98F55C6449343AA8D56ED /* [CP] Embed Pods Frameworks */,
+				5609F458B80FD403D916F35F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -126,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2AD72DC23F2CE6300257D60 /* LaunchScreen.storyboard in Resources */,
+				A249D25523F542C70084B917 /* GoogleService-Info.plist in Resources */,
 				A2AD72D923F2CE6300257D60 /* Assets.xcassets in Resources */,
 				A2AD72D723F2CE5E00257D60 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +270,81 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2EB98F55C6449343AA8D56ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Keemoji/Pods-Keemoji-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Keemoji/Pods-Keemoji-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Keemoji/Pods-Keemoji-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5609F458B80FD403D916F35F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Keemoji/Pods-Keemoji-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Keemoji/Pods-Keemoji-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Keemoji/Pods-Keemoji-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD58902732BBCC8B1E280594 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Keemoji-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A2AD72C823F2CE5E00257D60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2AD72D423F2CE5E00257D60 /* ViewController.swift in Sources */,
 				A2AD72D023F2CE5E00257D60 /* AppDelegate.swift in Sources */,
+				A27AB17B23F4027D00AB0952 /* Dish.swift in Sources */,
 				A2AD72D223F2CE5E00257D60 /* SceneDelegate.swift in Sources */,
+				A27AB18123F418BB00AB0952 /* DetailVС.swift in Sources */,
+				A274941823F6CCA300C415AA /* Order.swift in Sources */,
+				A274941423F694E700C415AA /* UserProfile.swift in Sources */,
+				A27FC3FF23F59B5A0077694B /* LoginVC.swift in Sources */,
+				A274941623F6AB8800C415AA /* CurrentJser.swift in Sources */,
+				A27AB17923F3FD8600AB0952 /* Menu.swift in Sources */,
+				A2AD72E423F2D00600257D60 /* MenuListVC.swift in Sources */,
+				A206FE2523F4426800B2A975 /* UserProfileVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,8 +486,10 @@
 		};
 		A2AD72E123F2CE6300257D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81250360F113B0DC56F11AAF /* Pods-Keemoji.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Keemoji/Keemoji.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 946NQ7ZBS2;
 				INFOPLIST_FILE = Keemoji/Info.plist;
@@ -300,8 +506,10 @@
 		};
 		A2AD72E223F2CE6300257D60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B354D834F5223EDB2A80D5E0 /* Pods-Keemoji.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Keemoji/Keemoji.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 946NQ7ZBS2;
 				INFOPLIST_FILE = Keemoji/Info.plist;
