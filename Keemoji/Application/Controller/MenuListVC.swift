@@ -11,10 +11,16 @@ import FirebaseAuth
 
 class MenuListVC: UITableViewController {
     
+    let reuseId = "CellX"
     var categories = MenuCategory.allDishes
     
     override func viewWillAppear(_ animated: Bool) {
         checkLoggedIn()
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        tableView.register(CustomDishCell.self, forCellReuseIdentifier: reuseId)
     }
     
     // MARK: - Table view data source
@@ -27,15 +33,17 @@ class MenuListVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
         
-        let dish = categories[indexPath.section].dishes[indexPath.row]
+        let cell = tableView.dequeueReusableCell(withIdentifier: reuseId, for: indexPath) as! CustomDishCell
+        let dishItem = categories[indexPath.section].dishes[indexPath.row]
         
-        cell.textLabel?.text = dish.title
-        cell.detailTextLabel?.text = dish.description
-        cell.imageView?.image = dish.photo
+        cell.dish = dishItem
         
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        self.performSegue(withIdentifier: "ShowDetail", sender: self.tableView)
     }
     
     /*
@@ -91,7 +99,7 @@ class MenuListVC: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
-        return 60
+        return 70
     }
 }
 

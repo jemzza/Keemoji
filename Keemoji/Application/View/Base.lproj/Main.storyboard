@@ -50,7 +50,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FNL-h0-D8D">
-                                <rect key="frame" x="16" y="536.5" width="343" height="39"/>
+                                <rect key="frame" x="16" y="549" width="343" height="39"/>
                                 <color key="backgroundColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="log out">
@@ -73,6 +73,7 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="K7b-Yk-1Zv" firstAttribute="centerY" secondItem="5r2-Nj-zVj" secondAttribute="centerY" id="5od-6P-R5x"/>
+                            <constraint firstItem="4Bz-mU-cne" firstAttribute="bottom" secondItem="FNL-h0-D8D" secondAttribute="bottom" constant="30" id="7y7-1k-EcX"/>
                             <constraint firstItem="K7b-Yk-1Zv" firstAttribute="centerX" secondItem="1hy-AJ-BeU" secondAttribute="centerX" id="G4b-6J-cHz"/>
                             <constraint firstItem="5r2-Nj-zVj" firstAttribute="leading" secondItem="4Bz-mU-cne" secondAttribute="leading" constant="16" id="Oxs-il-cSR"/>
                             <constraint firstItem="FNL-h0-D8D" firstAttribute="leading" secondItem="4Bz-mU-cne" secondAttribute="leading" constant="16" id="bGl-vy-l81"/>
@@ -80,7 +81,6 @@
                             <constraint firstItem="5r2-Nj-zVj" firstAttribute="top" secondItem="4Bz-mU-cne" secondAttribute="top" constant="60" id="lPc-o1-05U"/>
                             <constraint firstItem="4Bz-mU-cne" firstAttribute="trailing" secondItem="FNL-h0-D8D" secondAttribute="trailing" constant="16" id="uHf-QX-OuR"/>
                             <constraint firstItem="4Bz-mU-cne" firstAttribute="trailing" secondItem="5r2-Nj-zVj" secondAttribute="trailing" constant="16" id="xTJ-JN-6qg"/>
-                            <constraint firstItem="FNL-h0-D8D" firstAttribute="centerY" secondItem="1hy-AJ-BeU" secondAttribute="centerY" multiplier="5:3" id="ztR-io-ZJN"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="4Bz-mU-cne"/>
                     </view>

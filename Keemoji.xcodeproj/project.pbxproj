@@ -24,6 +24,8 @@
 		A2AD72D923F2CE6300257D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2AD72D823F2CE6300257D60 /* Assets.xcassets */; };
 		A2AD72DC23F2CE6300257D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2AD72DA23F2CE6300257D60 /* LaunchScreen.storyboard */; };
 		A2AD72E423F2D00600257D60 /* MenuListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AD72E323F2D00600257D60 /* MenuListVC.swift */; };
+		A2AFCCE923F732E50087FD28 /* CustomDishCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AFCCE823F732E50087FD28 /* CustomDishCell.swift */; };
+		A2AFCCEB23F738730087FD28 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2AFCCEA23F738730087FD28 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +50,8 @@
 		A2AD72DB23F2CE6300257D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2AD72DD23F2CE6300257D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A2AD72E323F2D00600257D60 /* MenuListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuListVC.swift; sourceTree = "<group>"; };
+		A2AFCCE823F732E50087FD28 /* CustomDishCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDishCell.swift; sourceTree = "<group>"; };
+		A2AFCCEA23F738730087FD28 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		B354D834F5223EDB2A80D5E0 /* Pods-Keemoji.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Keemoji.release.xcconfig"; path = "Target Support Files/Pods-Keemoji/Pods-Keemoji.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -95,6 +99,8 @@
 			isa = PBXGroup;
 			children = (
 				A2AD72D523F2CE5E00257D60 /* Main.storyboard */,
+				A2AFCCE823F732E50087FD28 /* CustomDishCell.swift */,
+				A2AFCCEA23F738730087FD28 /* Extensions.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -340,11 +346,13 @@
 			files = (
 				A2AD72D023F2CE5E00257D60 /* AppDelegate.swift in Sources */,
 				A27AB17B23F4027D00AB0952 /* Dish.swift in Sources */,
+				A2AFCCE923F732E50087FD28 /* CustomDishCell.swift in Sources */,
 				A2AD72D223F2CE5E00257D60 /* SceneDelegate.swift in Sources */,
 				A27AB18123F418BB00AB0952 /* DetailVС.swift in Sources */,
 				A274941823F6CCA300C415AA /* Order.swift in Sources */,
 				A274941423F694E700C415AA /* UserProfile.swift in Sources */,
 				A27FC3FF23F59B5A0077694B /* LoginVC.swift in Sources */,
+				A2AFCCEB23F738730087FD28 /* Extensions.swift in Sources */,
 				A274941623F6AB8800C415AA /* CurrentJser.swift in Sources */,
 				A27AB17923F3FD8600AB0952 /* Menu.swift in Sources */,
 				A2AD72E423F2D00600257D60 /* MenuListVC.swift in Sources */,
