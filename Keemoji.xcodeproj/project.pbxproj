@@ -13,6 +13,7 @@
 		A274941423F694E700C415AA /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A274941323F694E700C415AA /* UserProfile.swift */; };
 		A274941623F6AB8800C415AA /* CurrentJser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A274941523F6AB8800C415AA /* CurrentJser.swift */; };
 		A274941823F6CCA300C415AA /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = A274941723F6CCA300C415AA /* Order.swift */; };
+		A274941D23F6EACC00C415AA /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = A274941C23F6EACC00C415AA /* .gitignore */; };
 		A27AB17923F3FD8600AB0952 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27AB17823F3FD8600AB0952 /* Menu.swift */; };
 		A27AB17B23F4027D00AB0952 /* Dish.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27AB17A23F4027D00AB0952 /* Dish.swift */; };
 		A27AB18123F418BB00AB0952 /* DetailVС.swift in Sources */ = {isa = PBXBuildFile; fileRef = A27AB18023F418BB00AB0952 /* DetailVС.swift */; };
@@ -34,6 +35,7 @@
 		A274941323F694E700C415AA /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		A274941523F6AB8800C415AA /* CurrentJser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentJser.swift; sourceTree = "<group>"; };
 		A274941723F6CCA300C415AA /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
+		A274941C23F6EACC00C415AA /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		A27AB17823F3FD8600AB0952 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		A27AB17A23F4027D00AB0952 /* Dish.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dish.swift; sourceTree = "<group>"; };
 		A27AB18023F418BB00AB0952 /* DetailVС.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DetailVС.swift"; sourceTree = "<group>"; };
@@ -155,6 +157,7 @@
 		A2AD72C323F2CE5E00257D60 = {
 			isa = PBXGroup;
 			children = (
+				A274941C23F6EACC00C415AA /* .gitignore */,
 				A2AD72CE23F2CE5E00257D60 /* Keemoji */,
 				A2AD72CD23F2CE5E00257D60 /* Products */,
 				B11F252BD6D825F28877354D /* Pods */,
@@ -261,6 +264,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A274941D23F6EACC00C415AA /* .gitignore in Resources */,
 				A2AD72DC23F2CE6300257D60 /* LaunchScreen.storyboard in Resources */,
 				A249D25523F542C70084B917 /* GoogleService-Info.plist in Resources */,
 				A2AD72D923F2CE6300257D60 /* Assets.xcassets in Resources */,
